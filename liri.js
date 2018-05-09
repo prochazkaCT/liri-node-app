@@ -1,6 +1,6 @@
 // Node module imports needed to run the functions
 require("dotenv").config();    
-var fs = require("fs"); //reads and writes files
+var fs = require("fs");
 var request = require("request");
 var keys = require("./keys.js");
 var Twitter = require('twitter');
@@ -9,10 +9,11 @@ var client = new Twitter(keys.twitter);
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 
+
 var liriInput= process.argv[2];
 var input = process.argv[3];
 
-// Commands for this liri app
+// Commands for the liri app
 switch(liriInput) {
     case "my-tweets": 
     myTweets(); 
@@ -30,7 +31,7 @@ switch(liriInput) {
     doWhatItSays(); 
     break;
         
-    // Instructions displayed in terminal to the user
+    // Instructions displayed in terminal to the user if nothing is inputted
 	default: console.log("\r\n" +"To use LIRI, you can type in the following commands after 'node liri.js'." + "\n" + "If the song or movie name has more than one word, put the name in quotation marks." + "\n" + "For example, node liri.js spotify-this-song 'all hands on the bad one'" +"\r\n"+
 			"1. my-tweets 'any twitter name' " +"\r\n"+
 			"2. spotify-this-song 'any song name' "+"\r\n"+
@@ -38,6 +39,8 @@ switch(liriInput) {
 			"4. do-what-it-says."+"\r\n");
 };
 
+//Tweet function
+//please don't make me tweet anymore -- it works ;) 
 function myTweets () {
 	var params = {
 		screen_name: 'BettyBo86449136',
@@ -55,7 +58,7 @@ function myTweets () {
 				data[i].created_at + "\r\n" + 
 				"------------------------------ " + i + " ------------------------------" + "\r\n";
 				console.log(twitterResults);
-				log(twitterResults); // calling log function
+				log(twitterResults); // calling log function to print results to log.txt file
 			}
 		}  else {
 			console.log("Error :"+ error);
@@ -64,8 +67,10 @@ function myTweets () {
 	});
 }
 
+//Spotify function 
 function spotifyThisSong() {
 	if (input == null) {
+		//hard coded the default
 		return console.log("Artist: Ace of Base \nSong: 'The Sign' \nAlbum: 'Greatest Hits' \nPreview Link: 'https://open.spotify.com/track/3DYVWvPh3kGwPasp7yjahc'");
 	}
 	params = input;
@@ -82,7 +87,7 @@ function spotifyThisSong() {
 			 		"Preview Link: " + songInfo[i].preview_url + "\r\n" + 
                     "     ----------------------------------       ------------------------------------               " + "\r\n";
 			 		console.log(spotifyResults);
-			 		log(spotifyResults); // logging the results to log.txt
+			 		log(spotifyResults); // // calling log function to print results to log.txt file
 			 	}
 			}
 		}	else {
@@ -114,7 +119,7 @@ function movieThis(){
 			"Actors: " + JSON.parse(body).Actors +"\r\n"+
 			"---------------End of Movie Results ----------" + "\r\n";
 			console.log(movieResults);
-			log(movieResults); 
+			log(movieResults); // calling log function to print results to log.txt file
 			} else {
 				console.log("Error :"+ error);
 				return;
@@ -135,13 +140,13 @@ function doWhatItSays() {
                 params = input;
                 console.log("The song to search is: " + params);
 				spotifyThisSong(params);
-				log(params); 
+				log(params); // calling log function to print results to log.txt file
 				}
         }
 	});
 }
 
-//The log function that records the results 
+//The log function that records the results when called above 
 function log(logResults) {
 	fs.appendFile("log.txt", logResults, (error) => {
 	    if(error) {
@@ -150,3 +155,4 @@ function log(logResults) {
     });
 }
 
+//the end :) 

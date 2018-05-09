@@ -69,3 +69,73 @@ Sun May 06 18:37:06 +0000 2018
 @BettyBo86449136: I can't get the darn twitter account to load!
 Mon May 07 02:25:37 +0000 2018
 ------------------------------ 4 ------------------------------
+---------------Movie Results-----------------
+Title: Finding Nemo
+Year: 2003
+Imdb Rating: 8.1
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+Actors: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+---------------End of Movie Results ------------
+---------------Movie Results-----------------
+Title: The Avengers
+Year: 2012
+Imdb Rating: 8.1
+Rotten Tomatoes Rating: N/A
+Country: USA
+Language: English, Russian, Hindi
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+Actors: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+---------------End of Movie Results ----------
+Artist: Sleater-Kinney
+Song: All Hands on the Bad One
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/1a0972214587268db18e6252652a3e21d162a9c8?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: You're No Rock n' Roll Fun
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/fe4bf9b6be7022be7cd9d3d20ab570cc4ce36ba3?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: Ironclad
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/946630e7ca10924ed62e42861c9c4d134a2fb6b3?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: #1 Must Have
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/314fe818da095be86985378d52de509cea99ea6b?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: The Professional
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/c4b4921eb6a30ef24bdfc0a80ad7a8b23d6e0a0b?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: The Ballad of a Ladyman
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/55318899a4f69551af6b2a03a3bf825907c8f986?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: Milkshake n' Honey
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/3bee160e8d2f2a71badb572909314ec9d0b5af7e?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: The Swimmer
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/1010b3b589c6a88e3aaf1bd7b71bd5661a668ca3?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: Leave You Behind
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/445471370b59b3e99b1ad26b68a31134cf0063eb?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
+Artist: Sleater-Kinney
+Song: Youth Decay
+Album: All Hands on the Bad One (Remastered)
+Preview Link: https://p.scdn.co/mp3-preview/1f3c6320b24d24bd78115a30d8c1ad7265d2f061?cid=e470886d95244a3b8113e1b48b8e5d2e
+     ----------------------------------       ------------------------------------               
